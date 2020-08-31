@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<!-- Homework 2 -->
+
+<?xml-stylesheet type="text/css" href="StyleSheet11.css"?>
+
+<!DOCTYPE Catalog>
+
+
+<Catalog>
+
+	<Book>
+		<name>Introduction to HTML</name>
+		<author>Joseph Gardner</author>
+		<publisher>	Press ©</publisher>
+		<pages>100</pages>
+	</Book>
+
+	<Book>
+		<name>Networking Infrastructure</name>
+		<author>Adam Douglas and Janice Dall</author>
+		<publisher>	Cengage;©</publisher>
+		<pages>150</pages>
+	</Book>
+
+	<Book>
+		<name>Soft Skills in IT</name>
+		<author>Mark Hunter</author>
+		<publisher>	Bolding Publisher©</publisher>
+		<pages>200</pages>
+	</Book>
+
+	<Book>
+		<name>Network Security</name>
+		<author>Jennifer Starter and Yuri Adantov</author>
+		<publisher>Wrox©</publisher>
+		<pages>250</pages>
+	</Book>
+
+	<Book>
+		<name>XML and JSON</name>
+		<author>Stuart Bell</author>
+		<publisher>Cengage;©</publisher>
+		<pages>300</pages>
+	</Book>
+
+	"Books are being donated by instructors and publishers"
+
+</Catalog>

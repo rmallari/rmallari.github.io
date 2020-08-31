@@ -1,0 +1,64 @@
+﻿Catalog:before {
+    display: block;
+    width: 8em;
+    color: red;
+    font-weight: bold;
+    font-size: 200%;
+    content: "Books";
+    margin: -.75em 0px .25em -.25em;
+    padding: .1em .25em;
+    background-color: #cdf;
+}
+
+Catalog {
+    display: block;
+    margin: 2em 1em;
+    border: 4px solid #cdf;
+    padding: 0px 1em;
+    background-color: lightgrey;
+}
+
+Book {
+    display: block;
+    margin-bottom: 1em;
+}
+
+name {
+    display: block;
+    font-weight: bold;
+    font-size: 150%;
+    color: red;
+    margin: -.01em 0px .025em -.025em;
+    padding: .01em .05em;
+    background-color: lightgray; 
+    
+ }
+
+
+author {
+    display: block;
+}
+
+    author:before {
+        content: "Author: ";
+    }
+
+
+publisher {
+    display: block;
+}
+
+    publisher:before {
+        content: "Publisher Name: ";
+    }
+
+
+pages {
+    display: block;
+}
+
+    pages:before {
+        content: "number of pages: ";
+    }
+
+
