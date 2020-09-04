@@ -23,6 +23,12 @@ Book {
     margin-bottom: 1em;
 }
 
+}
+Book:nth-child(even) {
+     background: navy;
+     color: white;
+
+}
 name {
     display: block;
     font-weight: bold;
