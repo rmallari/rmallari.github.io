@@ -1,3 +1,9 @@
+string xmldata = ...
+Response.ContentType = "application/xml";
+Response.ContentEncoding = Encoding.UTF8;
+Response.AddHeader("Content-Length", Convert.ToString(xmldata.Length));
+return this.Content(xmldata);
+
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type="text/xsl"
                  version="2.0"
