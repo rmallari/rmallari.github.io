@@ -21,6 +21,7 @@
   td.account2{
   text-align: right;
   color: red;
+  font-weight: bold;
   }
 </style>
     <body>
