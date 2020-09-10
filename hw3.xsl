@@ -11,7 +11,7 @@
   border: 3px solid blue;
   }
   td{
-  border: 2 solid blue;
+  border: 2px solid blue;
   margin: 2em 1em;
   padding: 0px 5px;
   }
