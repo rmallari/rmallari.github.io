@@ -33,6 +33,7 @@
           <th>Account Total</th>
         </tr>
 <xsl:for-each select="Accounts/Client">
+  <xsl:sort select="Name/Last"/>
   <tr>
     <td>
       <xsl:value-of select="Name"/>
