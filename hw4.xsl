@@ -23,7 +23,7 @@
   <xsl:value-of select="Last"/><xsl:text>, </xsl:text><xsl:value-of select="First"/>
   <xsl:choose>
       <xsl:when test="position()=last()"></xsl:when>
-      <xsl:otherwise>, and </xsl:otherwise>
+      <xsl:otherwise> and </xsl:otherwise>
   </xsl:choose>
   </xsl:for-each>.</p>
   <p><xsl:value-of select="count(//Client/Years[.&gt;7])"/> of our clients are with us for more than 7 years!</p>
