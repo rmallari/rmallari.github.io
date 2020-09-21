@@ -20,7 +20,7 @@
             <p>We are a very young financial manager company and we are proud of our clients</p>
             <p>We have started with 1 client a little bit more thatn 10 years ago and now we have <xsl:value-of select="count(//Client)"/> clients!</p>
             <p>These are our clients: <xsl:for-each select="Accounts/Client/Name">
-                <xsl:value-of select="Last"/><xsl:text>, </xsl:text><xsl:value-of select="First"/>
+                <xsl:value-of select="First"/><xsl:text>, </xsl:text><xsl:value-of select="Last"/>
                   <xsl:choose>
                      <xsl:when test="position()=last()"></xsl:when>
                      <xsl:otherwise> and </xsl:otherwise>
