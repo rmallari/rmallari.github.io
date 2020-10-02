@@ -10,8 +10,8 @@
 <!ELEMENT Quantity (#PCDATA)>
 <!ELEMENT Unit_Price (#PCDATA)>
 <!ELEMENT Color (#PCDATA)>
-<!ENTITY Loc "Made in USA">
 <!ELEMENT Loc (#PCDATA)>
+<!ENTITY Loc "Made in USA">
 ]>
 
 <Products>
