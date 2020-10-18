@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+	<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+		<xs:element name="Member">
+		<!-- XSD validation rules xs:element tag-->
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element name="Name">
+					<xs:simpleType>
+						<xs:restriction base="xs:string">
+							<xs:maxLength value="30" />
+						</xs:restriction>
+					</xs:simpleType>
+				</xs:element>
+				<xs:element name="Age" type="xs:integer" default="21" />
+				<xs:element name="Job" type="xs:string" />
+				<xs:element name="Date" type="xs:date" />
+				<xs:element name="Phone">
+					<xs:simpleType>
+						<xs:restriction base="xs:string">
+							<xs:pattern value="\d{3}-\d{3}-\d{4}" />
+						</xs:restriction>
+					</xs:simpleType>
+				</xs:element>
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+</xs:schema>
