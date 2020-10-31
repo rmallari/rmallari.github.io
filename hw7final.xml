@@ -6,13 +6,13 @@
     <eas:name>Florida</eas:name>
   <eas:capital>Tallahassee</eas:capital>
   </eas:state>
-  <eas:state>
-  <eas:name>North Carolina</eas:name>
-  <eas:capital>Raleigh</eas:capital>
-  </eas:state>
   <eas:state>  
   <eas:name>Maryland</eas:name>
   <eas:capital>Annapolis</eas:capital>
+  </eas:state>
+  <eas:state>
+  <eas:name>North Carolina</eas:name>
+  <eas:capital>Raleigh</eas:capital>
   </eas:state>
   <state xmlns="http://www.gov.org/west">
     <name>California</name>
