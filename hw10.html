@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+<style>
+	body{
+		background-color: black;
+		color: white;
+
+	}
+</style>
+<head>
+	<title>Json</title>
+</head>
+<body>
+<h1> Question: Suppose you have the following code in JavaScript (recognize the data being passed to the variable in JSON format) - the var statement is just to declare the variable called friends </h1>
+<p>The content of the tablecell1 will be the details of the first person on the list, as the rule apply Index used was 0 which always represent the first available data on the list.</p>
+<p>This button will show the output on the question on the assignment. </p>
+<button onclick="alert(tablecell1)">Show</button>
+<br><br><br>
+<h1> XTML to JSON conversion </h1>
+<p>This button will show the the converted file from XTML to JSON. </p>
+<a href="hw10.json">Link to JSON file</a>
+<br>
+<br>
+<button onclick="displayInfo()">Show</button>
+<br>
+<p id="demo"></p>
+<script>
+	var a;
+    var employeeinfo = "";
+	var employee= 
+  [
+   {
+      "firstName": "Janet",
+      "lastName": "Doe",
+      "profession": "Engineer"
+   },
+   {
+      "firstName": "Anna",
+      "lastName": "Smith",
+      "profession": "Instructor"
+   },
+   {
+      "firstName": "Peter",
+      "lastName": "Jackson",
+     "profession": "Writer"
+   },
+   {
+      "firstName": "Edgard",
+      "lastName": "Lambart",
+      "profession": "Engineer"
+   },
+   {
+      "firstName": "Lucia",
+      "lastName": "Rodriguez",
+      "profession": "Journalist"
+   },
+   {
+      "firstName": "Mark",
+      "lastName": "Douglas",
+      "profession": "Doctor"
+   }
+  ]
+        for (i = 0; i < employee.length; i++) {
+          
+            employeeinfo += "FirstName: " + employee[i].firstName + "<br>" + "Lastname: " +employee[i].lastName + "<br>" + "Profession: " + employee[i].profession + "<br><p>----------</p>";
+        }
+
+        function displayInfo() {
+            document.getElementById("demo").innerHTML = employeeinfo;
+        }
+
+
+
+	var friends = [{
+     "name": "John",
+     "age": "28",
+     "gender": "male",
+     "profession": "sales rep"
+},
+{
+     "name": "Maryenne",
+     "age": "26",
+     "gender": "female",
+     "profession": "web developer"
+}];
+	var tablecell1 = 'Name: ' + friends[0].name  + ' / ' + ' Profession: ' + friends[0].profession
+</script>
+</body>
+</html>
